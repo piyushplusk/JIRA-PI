@@ -1,0 +1,84 @@
+<title>Inline Dropdowns with Links</title>
+<style>
+        label, select {
+            display: inline-block;
+            margin-right: 10px;
+        }
+</style>
+<label for="dropdown1">Soarian Financials:</label>
+
+ 
+
+    <select id="dropdown1" onchange="redirectToURL(this)">
+
+ 
+
+        <option disabled="" selected="">Select an option</option>
+
+ 
+
+        <option value="https://jira3.cerner.com/secure/CreateIssueDetails!init.jspa?pid=24500&amp;issuetype=3&amp;summary=<Client mnemonic | HHRR | Solution Financials | Environment/Domain | MS Patching+-+&amp;description=EVENT/WORK: MS Patching Maintenance%0ACLIENT:  <Insert Client Name>%0AHHRR:  <Insert%20Client>&amp;customfield_20510=95683&amp;customfield_20510:1=95685&amp;customfield_30800=95613&amp;customfield_30800:1=95633&amp;priority=3" target="_blank" "="">MS Patching</option>
+
+ 
+
+        <option value="https://www.example.com/link2">Regs</option>
+
+ 
+
+        <option value="https://www.example.com/link3">EP Apply</option>
+
+ 
+
+        <option value="https://www.example.com/link3">Upgrade</option>
+</select>
+<label for="dropdown2">Soarian Clinicals:</label>
+<select id="dropdown2" onchange="redirectToURL(this)">
+
+ 
+
+        <option disabled="" selected="">Select an option</option>
+
+ 
+
+        <option value="https://www.example.com/link2">MS Patching</option>
+
+ 
+
+        <option value="https://www.example.com/link3">EP Apply</option>\
+
+ 
+
+        <option value="https://www.example.com/link3">Upgrade</option>
+</select>
+<label for="dropdown3">Soarian Scheduling:</label>
+
+ 
+
+    <select id="dropdown3" onchange="redirectToURL(this)">
+
+ 
+
+        <option disabled="" selected="">Select an option</option>
+
+ 
+
+        <option value="https://www.example.com/link2">MS Patching</option>
+
+        <option value="https://www.example.com/link3">Upgrade</option>
+        <option value="https://www.example.com/link3">History table migration </option>
+    </select>
+    <script>
+        function redirectToURL(selectElement) {
+            const selectedOption = selectElement.options[selectElement.selectedIndex];
+            const url = selectedOption.value;
+
+            if (url) {
+
+
+                window.open(url, '_blank'); // Open the link in a new tab or window
+
+            }
+
+
+        }
+    </script>
