@@ -1,15 +1,22 @@
 <title>Inline Dropdowns with Links</title>
-<style>
-        label, select {
-            display: inline-block;
-            margin-right: 10px;
-        }
-</style>
-<label for="dropdown1">Soarian Financials:</label>
+<center><b><p style="color: red;" style="font-size: 30px;"> The event timings should be entered in EST time zone.</p></b></center><br><br>
 
  
 
-    <select id="dropdown1" onchange="redirectToURL(this)">
+    <style>
+        label, select {
+            display: inline-block;
+            margin-right: 10px;
+
+        }
+}
+</style>
+
+<label for="dropdown1" style="color: blue; font-weight: bold; font-size:15px">Soarian Financials:</label>
+
+ 
+
+    <select id="dropdown1" onchange="redirectToURL(this)" style="font-size: 15px;">
 
  
 
@@ -21,64 +28,138 @@
 
  
 
-        <option value="https://www.example.com/link2">Regs</option>
+        <option value="https://jira3.cerner.com/secure/CreateIssueDetails!init.jspa?pid=24500&amp;issuetype=3&amp;summary=<Client mnemonic | HHRR | Solution Financials | Environment/Domain | REGS <Version>+-+&amp;description=EVENT/WORK: Regs <Version>%0ACLIENT:  <Insert Client Name>%0AHHRR:  <Insert%20Client>&amp;customfield_20510=95683&amp;customfield_20510:1=95685&amp;customfield_30800=95613&amp;customfield_30800:1=95640&amp;priority=3" target="_blank" "="">Regs</option>
 
  
 
-        <option value="https://www.example.com/link3">EP Apply</option>
+        <option value="https://jira3.cerner.com/secure/CreateIssueDetails!init.jspa?pid=24500&amp;issuetype=3&amp;summary=<Client mnemonic | HHRR | Solution Financials | Environment/Domain | EP <Version>+-+&amp;description=EVENT/WORK: EP <Version>%0ACLIENT:  <Insert Client Name>%0AHHRR:  <Insert%20Client>&amp;customfield_20510=95683&amp;customfield_20510:1=95685&amp;customfield_30800=95613&amp;customfield_30800:1=95637&amp;priority=3" target="_blank" "="">Service Pack/EP Apply</option>
 
  
 
-        <option value="https://www.example.com/link3">Upgrade</option>
-</select>
-<label for="dropdown2">Soarian Clinicals:</label>
-<select id="dropdown2" onchange="redirectToURL(this)">
+        <option value="https://jira3.cerner.com/secure/CreateIssueDetails!init.jspa?pid=24500&amp;issuetype=3&amp;summary=<Client mnemonic | HHRR | Solution Financials | Environment/Domain | Upgrade <Version>+-+&amp;description=EVENT/WORK: Upgrade <Version>%0ACLIENT:  <Insert Client Name>%0AHHRR:  <Insert%20Client>&amp;customfield_20510=95683&amp;customfield_20510:1=95685&amp;customfield_30800=95613&amp;customfield_30800:1=95635&amp;priority=3" target="_blank" "="">Upgrade</option>
 
  
 
-        <option disabled="" selected="">Select an option</option>
+        <option value="https://jira3.cerner.com/secure/CreateIssueDetails!init.jspa?pid=24500&amp;issuetype=3&amp;summary= Internal Maintenance | PROD | <mm/dd/yyyy>+-+&amp;description=EVENT/WORK: Internal Server Patching%0ASERVER LIST:  <Insert Servers>&amp;customfield_20510=95683&amp;customfield_20510:1=95685&amp;customfield_30800=95613&amp;customfield_30800:1=95645&amp;customfield_18740=95600&amp;priority=3" target="_blank" "="">Internal Maintenance</option>
 
  
 
-        <option value="https://www.example.com/link2">MS Patching</option>
-
- 
-
-        <option value="https://www.example.com/link3">EP Apply</option>\
-
- 
-
-        <option value="https://www.example.com/link3">Upgrade</option>
-</select>
-<label for="dropdown3">Soarian Scheduling:</label>
-
- 
-
-    <select id="dropdown3" onchange="redirectToURL(this)">
-
- 
-
-        <option disabled="" selected="">Select an option</option>
-
- 
-
-        <option value="https://www.example.com/link2">MS Patching</option>
-
-        <option value="https://www.example.com/link3">Upgrade</option>
-        <option value="https://www.example.com/link3">History table migration </option>
     </select>
+
+
+
+<label for="dropdown2" style="color: blue; font-weight: bold; font-size:15px">Soarian Clinicals:</label>
+
+ 
+
+    <select id="dropdown2" onchange="redirectToURL(this)" style="font-size: 15px;">
+
+ 
+
+        <option disabled="" selected="">Select an option</option>
+
+<option value="https://jira3.cerner.com/secure/CreateIssueDetails!init.jspa?pid=24500&amp;issuetype=3&amp;summary=<Client mnemonic | HHRR | Solution Clinicals | Environment/Domain | MS Patching+-+&amp;description=EVENT/WORK: MS Patching%0ACLIENT:  <Insert Client Name>%0AHHRR:  <Insert%20Client>&amp;customfield_20510=95683&amp;customfield_20510:1=95684&amp;customfield_30800=95612&amp;customfield_30800:1=95617&amp;priority=3" target="_blank" "="">MS Patching</option>
+
+<option value="https://jira3.cerner.com/secure/CreateIssueDetails!init.jspa?pid=24500&amp;issuetype=3&amp;summary=<Client mnemonic | HHRR | Solution Clinicals | Environment/Domain | EP <Version>+-+&amp;description=EVENT/WORK: EP <Version>%0ACLIENT:  <Insert Client Name>%0AHHRR:  <Insert%20Client>&amp;customfield_20510=95683&amp;customfield_20510:1=95684&amp;customfield_30800=95612&amp;customfield_30800:1=95619&amp;priority=3" target="_blank" "="">Service Pack/EP Apply</option>
+
+ 
+
+        <option value="https://jira3.cerner.com/secure/CreateIssueDetails!init.jspa?pid=24500&amp;issuetype=3&amp;summary=<Client mnemonic | HHRR | Solution Clinicals | Environment/Domain | Upgrade <Version>+-+&amp;description=EVENT/WORK: Upgrade <Version>%0ACLIENT:  <Insert Client Name>%0AHHRR:  <Insert%20Client>&amp;customfield_20510=95683&amp;customfield_20510:1=95684&amp;customfield_30800=95612&amp;customfield_30800:1=95620&amp;priority=3" target="_blank" "="">Upgrade</option>
+
+ 
+
+        <option value="https://jira3.cerner.com/secure/CreateIssueDetails!init.jspa?pid=24500&amp;issuetype=3&amp;summary=<Client mnemonic | HHRR | Solution Clinicals | Environment/Domain | DB Migration+-+&amp;description=EVENT/WORK: DB Migration%0ACLIENT:  <Insert Client Name>%0AHHRR:  <Insert%20Client>&amp;customfield_20510=95683&amp;customfield_20510:1=95684&amp;customfield_30800=95612&amp;customfield_30800:1=95618&amp;priority=3" target="_blank" "="">DB Migration</option>
+
+<option value="https://jira3.cerner.com/secure/CreateIssueDetails!init.jspa?pid=24500&amp;issuetype=3&amp;summary=<Client mnemonic | HHRR | Solution Clinicals | Environment/Domain | APP Migration+-+&amp;description=EVENT/WORK: APP Migration%0ACLIENT:  <Insert Client Name>%0AHHRR:  <Insert%20Client>&amp;customfield_20510=95683&amp;customfield_20510:1=95684&amp;customfield_30800=95612&amp;customfield_30800:1=95622&amp;priority=3" target="_blank" "="">APP Migration</option>
+
+ 
+
+    </select>
+
+
+<label for="dropdown3" style="color: blue; font-weight: bold; font-size:15px">Soarian Scheduling:</label>
+
+ 
+
+    <select id="dropdown3" onchange="redirectToURL(this)" style="font-size: 15px;">
+
+ 
+
+        <option disabled="" selected="">Select an option</option>
+
+ 
+
+        <option value="https://jira3.cerner.com/secure/CreateIssueDetails!init.jspa?pid=24500&amp;issuetype=3&amp;summary=<Client mnemonic | HHRR | Solution Scheduling | Environment/Domain | MS Patching+-+&amp;description=EVENT/WORK: MS Patching%0ACLIENT:  <Insert Client Name>%0AHHRR:  <Insert%20Client>&amp;customfield_20510=95683&amp;customfield_20510:1=95686&amp;customfield_30800=95614&amp;customfield_30800:1=95649&amp;priority=3" target="_blank" "="">MS Patching</option>
+
+ 
+
+        <option value="https://jira3.cerner.com/secure/CreateIssueDetails!init.jspa?pid=24500&amp;issuetype=3&amp;summary=<Client mnemonic | HHRR | Solution Scheduling | Environment/Domain | Hotfix <Version>+-+&amp;description=EVENT/WORK: Hotfix <Version>%0ACLIENT:  <Insert Client Name>%0AHHRR:  <Insert%20Client>&amp;customfield_20510=95683&amp;customfield_20510:1=95686&amp;customfield_30800=95614&amp;customfield_30800:1=95652&amp;priority=3" target="_blank" "="">Hotfix Apply</option>
+
+ 
+
+        <option value="https://jira3.cerner.com/secure/CreateIssueDetails!init.jspa?pid=24500&amp;issuetype=3&amp;summary=<Client mnemonic | HHRR | Solution Scheduling | Environment/Domain | Upgrade <Version>+-+&amp;description=EVENT/WORK: Upgrade <Version>%0ACLIENT:  <Insert Client Name>%0AHHRR:  <Insert%20Client>&amp;customfield_20510=95683&amp;customfield_20510:1=95686&amp;customfield_30800=95614&amp;customfield_30800:1=95651&amp;priority=3" target="_blank" "="">Upgrade</option>
+
+ 
+
+        <option value="https://jira3.cerner.com/secure/CreateIssueDetails!init.jspa?pid=24500&amp;issuetype=3&amp;summary=<Client mnemonic | HHRR | Solution Scheduling | Environment/Domain | History Table Migration+-+&amp;description=EVENT/WORK: History Table Migration%0ACLIENT:  <Insert Client Name>%0AHHRR:  <Insert%20Client>&amp;customfield_20510=95683&amp;customfield_20510:1=95686&amp;customfield_30800=95614&amp;customfield_30800:1=95653&amp;priority=3" target="_blank" "="">Upgrade</option>
+
+ 
+
+ 
+
+    </select>
+
+
+ 
+
+    <p style="color: black;">
+
+<b Instruction to open JIRA request: </b><br>
+    Click on the drop-down menu under each Soarian solution and pick the appropriate activity you want to schedule. A new request form opens ensure that the Summary and Description are filled in with the correct information. Replace <> with real values.  The instructions, text in different colours and any special characters like <> should be removed when creating a Jira request.<br>
+When you are combining multiple pieces of activities along with this request, be sure to mention all of them in description, E.g., PI apply, Third party installation, History Table Migration etc.<br><br>
+<b>Note:</b><br>
+•    Add any additional watchers to this Jira that may need to be kept informed.<br>
+•    Client Mnemonic = Insert the Client Mnemonic.<br>
+•    Assignee = To whom you want to assign the activity.<br>
+•    Reporter = Input the name of person who is opening this request.<br>
+•    Domain=Pick the domain where the activity must be performed. If client is having multiple domains, specify in description to which domain the activity to be performed. E.g., Prod#22, Test#109, Test#389, Train#9 etc.<br><br>
+
+ 
+
+</p>
+
+ 
+
     <script>
+
+ 
+
         function redirectToURL(selectElement) {
+
+ 
+
             const selectedOption = selectElement.options[selectElement.selectedIndex];
+
+ 
+
             const url = selectedOption.value;
+
+ 
 
             if (url) {
 
+ 
 
                 window.open(url, '_blank'); // Open the link in a new tab or window
 
+ 
+
             }
 
+ 
 
         }
+
+ 
+
     </script>
